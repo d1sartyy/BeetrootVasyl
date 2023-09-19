@@ -72,3 +72,5 @@ def test_exception_handling():
     with pytest.raises(ValueError):
         with FileContextManager("non_existent_file.txt", "r") as f:
             content = f.read()
+
+print(1)
