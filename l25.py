@@ -171,7 +171,7 @@ class Queue:
 
     def dequeue(self):
         if self.is_empty():
-            raise IndexError("Dequeue from an empty queue")
+            raise IndexError("Dequeue from an empty queue.")
         popped_item = self.front.data
         self.front = self.front.next
         if self.front is None:
