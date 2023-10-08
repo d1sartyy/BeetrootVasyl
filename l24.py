@@ -107,7 +107,7 @@ class Queue:
         else:
             raise ValueError(f"{element} not found in the queue.")
 
-#____
+#___
 stack = Stack()
 stack.push(1)
 stack.push(2)
