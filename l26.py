@@ -63,5 +63,5 @@ result = fibonacci_search(arr, target)
 if result != -1:
     print(f"Element {target} found in position {result}.")
 else:
-    print(f"Element {target} not found")
+    print(f"Element {target} not found.")
 
