@@ -69,4 +69,4 @@ def question6(n: int) -> int:
         n /= 2
     return n
 
-#Question 5 = O(log n)
+#Question 5 = O(log n).
