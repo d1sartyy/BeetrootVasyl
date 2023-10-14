@@ -98,7 +98,6 @@ binary_tree.display_in_order()
 
 binary_tree.remove_subtree(25)
 binary_tree.display_in_order()
-#
 
 
 
